@@ -183,8 +183,8 @@ case "save": ////////////////SAVE
 
 		$isactive=secuimg(32);
 
-		$savequery=mysql_query("INSERT INTO account(username,sha_pass_hash,gmlevel,sessionkey,email,failed_logins,locked,online,joindate, expansion, last_ip) VALUES (
-		'".$_SESSION['CA_u']."', SHA1('".strtoupper($_SESSION['CA_u']).":".strtoupper($_SESSION['CA_p'])."'), '0', '0', '".$_SESSION['CA_em']."', '0', '0', '0', '".date("Y-m-d H:i:s")."', '".$_SESSION['CA_tbc']."', '".$_SERVER['REMOTE_ADDR']."')") or die (mysql_error());
+		$savequery=mysql_query("INSERT INTO account(username,sha_pass_hash,sessionkey,email,failed_logins,locked,online,joindate, expansion, last_ip) VALUES (
+		'".$_SESSION['CA_u']."', SHA1('".strtoupper($_SESSION['CA_u']).":".strtoupper($_SESSION['CA_p'])."'), '0', '".$_SESSION['CA_em']."', '0', '0', '0', '".date("Y-m-d H:i:s")."', '".$_SESSION['CA_tbc']."', '".$_SERVER['REMOTE_ADDR']."')") or die (mysql_error());
 
 		if ($savequery) {
 			$rowID = mysql_insert_id();
