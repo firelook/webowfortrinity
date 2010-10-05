@@ -19,11 +19,10 @@ $_LANG['CONF_CLASSES']['FG_5'] = "Spender";
 $_LANG['CONF_CLASSES']['FG_6'] = "Team Bereich";
 
 //$USER_LEVEL
-$_LANG['CONF_CLASSES']['UL_-1'] = "Any User";
-$_LANG['CONF_CLASSES']['UL_0'] = "Normal User";
-$_LANG['CONF_CLASSES']['UL_1'] = "User";
-$_LANG['CONF_CLASSES']['UL_2'] = "Moderator";
-$_LANG['CONF_CLASSES']['UL_3'] = "Game Master";
-$_LANG['CONF_CLASSES']['UL_4'] = "Administrator";
+$_LANG['CONF_CLASSES']['UL_0'] = "User";
+$_LANG['CONF_CLASSES']['UL_1'] = "Moderator";
+$_LANG['CONF_CLASSES']['UL_2'] = "Game Master";
+$_LANG['CONF_CLASSES']['UL_3'] = "Administrator";
+$_LANG['CONF_CLASSES']['UL_4'] = "Owner";
 
 ?>
