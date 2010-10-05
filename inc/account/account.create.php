@@ -333,7 +333,7 @@ function ca_valid() {
 			</tr>
 			<tr>
 			      <td width=125 align=right  class = "bevel" NOWRAP><span><?php echo $_LANG['ACCOUNT']['UPGRADES']; ?>:</span></td>
-                  <td width = "120" align=left  bgcolor = "#E5CDA1" NOWRAP><span><?php if ($_SESSION['CA_tbc']=='32') { echo 'Wrath of the Lich King'; } if ($_SESSION['CA_tbc']=='1') { echo 'tbc'; } else { echo 'None'; } ?></span></td>
+                  <td width = "120" align=left  bgcolor = "#E5CDA1" NOWRAP><span><?php if ($_SESSION['CA_tbc']=='2') { echo 'Wrath of the Lich King'; } if ($_SESSION['CA_tbc']=='1') { echo 'tbc'; } else { echo 'None'; } ?></span></td>
 			</tr>
 			</tr>
 			<tr>
@@ -724,7 +724,7 @@ function ca_valid() {
 																				  <td align=right NOWRAP><span><b><?php echo $_LANG['ACCOUNT']['UPGRADES']; ?>:</b></span></td>
 
 																					  <td align=left NOWRAP>
-																					  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc'><input type=radio value='32' id="upgtbc" name="uptbc" CHECKED> Wrath of the Lich King</label></td><td valign = "top">
+																					  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc'><input type=radio value='2' id="upgtbc" name="uptbc" CHECKED> Wrath of the Lich King</label></td><td valign = "top">
 																				   </td></tr></table></td>
 																			</tr>
 

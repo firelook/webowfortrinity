@@ -27,7 +27,7 @@ if  (!isset($_SESSION['userid'])) {
 		$_POST['step']="signature";
 	}
 
-$query=mysql_query("SELECT *, TIMESTAMPDIFF(MINUTE, last_login, NOW()) as lastlogin2, TIMESTAMPDIFF(MINUTE, joindate, NOW()) as joindate2 FROM account WHERE id='".$_SESSION['userid']."'") or die (mysql_error());
+$query=mysql_query("SELECT *, IFNULL(b.gmlevel,0) as gmlevel, TIMESTAMPDIFF(MINUTE, last_login, NOW()) as lastlogin2, TIMESTAMPDIFF(MINUTE, joindate, NOW()) as joindate2 FROM (`account` a) LEFT JOIN (`account_access` b) ON b.id = a.id WHERE a.id='".$_SESSION['userid']."'") or die (mysql_error());
 $row = mysql_fetch_array($query);
 $query=mysql_query("SELECT *, DATE_FORMAT(`bday`,'%d/%m/%Y') as `bday`, TIMESTAMPDIFF(YEAR,`bday`, CONVERT_TZ(NOW(), '".$GMT[$SETTING['WEB_GMT']][0]."', '".verifygmt($_SESSION['userid'])."')) as `bdage` FROM forum_accounts WHERE id_account='".$_SESSION['userid']."'") or die (mysql_error());
 $rowb = mysql_fetch_array($query);

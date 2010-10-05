@@ -16,7 +16,7 @@ if (isset($_SESSION['userid'])) {
 		if (strlen($_POST['uto'])<3) {
 			$haserrors = $_LANG['ACCOUNT']['MUST_TYPE_MEMBER_NAME'];
 		} else {
-			$query = mysql_query("SELECT fa.id_account as id_account, a.gmlevel as gmlvl, fa.enablepm as enablepm FROM account a LEFT JOIN (forum_accounts fa) ON a.id = fa.id_account WHERE LOWER(fa.displayname)=LOWER('".$_POST['uto']."')");
+			$query = mysql_query("SELECT fa.id_account as id_account, b.gmlevel as gmlvl, fa.enablepm as enablepm FROM account a LEFT JOIN (forum_accounts fa) ON a.id = fa.id_account LEFT JOIN (account_access b) ON b.id = a.id WHERE LOWER(fa.displayname)=LOWER('".$_POST['uto']."')");
 			$my = mysql_fetch_array($query);
 			if (mysql_num_rows($query)==0) {
 				$haserrors = $_LANG['ACCOUNT']['MEMBER_NOT_FOUND'];
