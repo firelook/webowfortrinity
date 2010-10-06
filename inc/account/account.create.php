@@ -265,7 +265,7 @@ function ca_valid() {
 
 				<div style = "font-family:arial,palatino, georgia, verdana, arial, sans-serif; color:#200F01; font-size: 10pt; font-weight: normal; background-image: url('new-hp/images/layout/parchment-light.jpg'); border-style: solid; border-color: #000000; border-width: 0px; border-bottom-width:1px; border-top-width:1px; background-color: #E7CFA3; line-height:140%;">
 				<div style = "padding:5px; background-image: url('new-hp/images/layout/header-gradiant.jpg'); background-repeat: no-repeat;">
-			<h3 class="title">Step 5 - Account Verification</h3>
+			<h3 class="title"><?php echo $_LANG['ACCOUNT']['REG_STEP_5']; ?></h3>
 			<p>
 			<center>
 						<table border=0 cellspacing=0 cellpadding=0><tr><td><img src="new-hp/images/navbar/left-end.gif" width="12" height="45" alt="" border="0"><td><td><img src="new-hp/images/navbar/step1b.gif" width="74" height="45" alt="" border="0"></td><td><img src="new-hp/images/navbar/step2b.gif" width="73" height="45" alt="" border="0"></td><td><img src="new-hp/images/navbar/step3b.gif" width="73" height="45" alt="" border="0"></td><td><img src="new-hp/images/navbar/step4b.gif" width="74" height="45" alt="" border="0"></td><td><img src="new-hp/images/navbar/step5c.gif" width="74" height="45" alt="" border="0"></td><td><img src="new-hp/images/navbar/right-end.gif" width="13" height="45" alt="" border="0"></td></tr></table>
@@ -1040,7 +1040,7 @@ foreach ($COUNTRY as $key=>$value) {
 										<tr>
 											<td align=right>
 												<font face="arial,helvetica" size=-1><span><b>
-												<?php echo $_LANG['ACCOUNT']['BIRTHDAY']; ?>:<br>
+												<font color="#FF0000">*</font> <?php echo $_LANG['ACCOUNT']['BIRTHDAY']; ?>:<br>
 												</span></b></font>
 												</td>
 												<td align=left>

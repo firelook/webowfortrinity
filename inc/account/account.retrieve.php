@@ -5,9 +5,9 @@ if (INCLUDED!==true) { include('index.htm'); exit; }
 
 parchup();
 
-title('Retrieve Account Name or Password');
+title($_LANG['ACCOUNT']['RETRIEVE']);
 
-subnav('Retrieve Account');
+subnav($_LANG['ACCOUNT']['RETRIEVE2']);
 
 parchdown();
 
@@ -49,7 +49,7 @@ switch($_REQUEST['t']) {
 
 				<td><h3 class="title">
 
-				Your Account Name Has Been Sent!
+				<?php echo $_LANG['ACCOUNT']['RET_SEND']; ?>
 
 				</h3></td>
 				</tr>
@@ -107,7 +107,7 @@ switch($_REQUEST['t']) {
 
 			<table border="0" cellpadding="4" cellspacing="0">
 			<tbody><tr>
-				<td><h3 class="title">Enter your Email Address Below:</h3></td>
+				<td><h3 class="title"><?php echo $_LANG['ACCOUNT']['RET_EE']; ?></h3></td>
 			</tr>
 
 			</tbody></table>
@@ -141,7 +141,7 @@ switch($_REQUEST['t']) {
 						<table border="0" cellpadding="4" cellspacing="0">
 						<tbody><tr>
 						      <td align="right">
-						  	  <span style="font-size: 13px;"><b>Email Address:</b></span>
+						  	  <span style="font-size: 13px;"><b><?php echo $_LANG['ACCOUNT']['RET_EMAIL']; ?></b></span>
 
 						      </td>
 						      
@@ -230,7 +230,7 @@ switch($_REQUEST['t']) {
 
 				<td><h3 class="title">
 
-				Your Account Password Has Been Sent!
+				<?php echo $_LANG['ACCOUNT']['RET_SEND2']; ?>
 
 				</h3></td>
 				</tr>
@@ -331,7 +331,7 @@ switch($_REQUEST['t']) {
 			<?php if ($_POST['uname']=='') { ?>
 			<tr>
 					      <td align="right">
-					  	  <span style="font-size: 13px;"><b>Your World of Warcraft Account Name:</b></span>
+					  	  <span style="font-size: 13px;"><b><?php echo $_LANG['ACCOUNT']['RET_ACC_NAME']; ?></b></span>
 					      </td>
 					      
 					      <td align="left">
@@ -347,7 +347,7 @@ switch($_REQUEST['t']) {
 			<?php } else if ($_POST['uname']!='') { ?>
 			<input name="uname" value="<?php echo $_POST['uname']; ?>" type="hidden">
 			<tr>
-				      <td align="right"><span style="font-size: 13px;"><b>Secret Question:</b></span></td>
+				      <td align="right"><span style="font-size: 13px;"><b><?php echo $_LANG['ACCOUNT']['RET_SQ']; ?></b></span></td>
 
 				      <td align="left"><span style="font-size: 13px;"><? echo $PASSWORD_QUESTION[$row['passask']]; ?></span>
 				      </td>
@@ -357,7 +357,7 @@ switch($_REQUEST['t']) {
 				<tr>
 
 				      <td align="right">
-				  	  <span style="font-size: 13px;"><b>Answer:</b></span>
+				  	  <span style="font-size: 13px;"><b><?php echo $_LANG['ACCOUNT']['RET_AN']; ?></b></span>
 				      </td>
 				      
 				      <td align="left">
@@ -372,7 +372,7 @@ switch($_REQUEST['t']) {
 				<tr>
 				      <td align="right">
 
-				  	  <span style="font-size: 13px;"><b>Email Address:</b></span>
+				  	  <span style="font-size: 13px;"><b><?php echo $_LANG['ACCOUNT']['RET_EMAIL']; ?></b></span>
 				      </td>
 				      
 				      <td align="left">

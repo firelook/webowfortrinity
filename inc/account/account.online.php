@@ -69,7 +69,7 @@ if (mysql_num_rows($dbquery)>0) {
 	metalborderdown();
 	
 } else {
-	errborder('No Accounts were found with On-Line status.');
+	errborder($_LANG['ACCOUNT']['NO_ACC_ON']);
 }
 
 parchdown();

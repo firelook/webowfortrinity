@@ -138,7 +138,7 @@ function toggleAlliance(thisDirectory)
 					if ($_POST['issigned']=='') { $_POST['issigned']='1'; }
 					if ($_POST['isbbcode']=='') { $_POST['isbbcode']='1'; }
 					
-					?><h1>Send</h1>
+					?><h1><?php echo $_LANG['ACCOUNT']['PN_SEND']; ?></h1>
 					<br><form method=post action="?n=account.pm&f=send" name="accpm">
 					<input type=hidden name="send" value="true">
 							<table align=center width = 98% style = "border-width: 1px; border-style: dotted; border-color: #928058;"><tr><td>
@@ -147,7 +147,7 @@ function toggleAlliance(thisDirectory)
 							<tr>
 								  <td width=120 align=right>
 								  <font face="arial,helvetica" size=-1><span><b>
-								To:
+								  <?php echo $_LANG['ACCOUNT']['PN_TO']; ?>
 								  </span></b></font>
 								  </td>
 								  <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td><input name="uto" value="<? echo $_REQUEST['to']; echo $_POST['uto'];?>" style = "Width:250" taborder=1 /></td><td valign = "top">
@@ -157,7 +157,7 @@ function toggleAlliance(thisDirectory)
 							<tr>
 								  <td align=right>
 								  <font face="arial,helvetica" size=-1><span><b>
-								Subject:
+								  <?php echo $_LANG['ACCOUNT']['PN_SUBJECT']; ?>
 								  </span></b></font>
 								  </td>
 								  <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td><input name="usu" value="<? echo $_POST['usu'];?>" style = "Width:250" taborder=1 /></td><td valign = "top">
@@ -176,7 +176,7 @@ function toggleAlliance(thisDirectory)
 							<tr>
 								  <td align=right valign=top>
 								  <font face="arial,helvetica" size=-1><span><b>
-								  Message:  </span></b></font> </td>
+								  <?php echo $_LANG['ACCOUNT']['PN_MESSAGE']; ?></span></b></font> </td>
 								  <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td>
 								  <textarea name="ume"  rows=10 cols=63><? echo $_POST['ume']; ?></textarea>
 								  </td><td valign = "top">
@@ -185,7 +185,7 @@ function toggleAlliance(thisDirectory)
 							<tr>
 								  <td align=right valign=top>
 								  <font face="arial,helvetica" size=-1><span><b>
-								  Enable BBCode:  </span></b></font> </td>
+								  <?php echo $_LANG['ACCOUNT']['PN_BBCODE']; ?></span></b></font> </td>
 								  <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td>
 								  <select name="isbbcode">
 									  <option value="1" SELECTED><?php echo $_LANG['ACCOUNT']['YES']; ?>
@@ -197,7 +197,7 @@ function toggleAlliance(thisDirectory)
 							<tr>
 								  <td align=right valign=top>
 								  <font face="arial,helvetica" size=-1><span><b>
-								  Include Signature:  </span></b></font> </td>
+								  <?php echo $_LANG['ACCOUNT']['PN_SIG']; ?></span></b></font> </td>
 								  <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td>
 								  <select name="issigned">
 									  <option value="1" SELECTED><?php echo $_LANG['ACCOUNT']['YES']; ?>
