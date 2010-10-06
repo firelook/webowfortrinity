@@ -3,16 +3,16 @@ if (INCLUDED!==true) { include('index.htm'); exit; }
 
 parchup();
 
-title('Users On-Line');
+title($_LANG['COMMUNITY']['COMMUNITY_UOL']);
 
-subnav('Community');
+subnav($_LANG['COMMUNITY']['COMMUNITY']);
 
 parchdown();
 
 parchup(true);
 
 ?>
-This data is based on accounts active over the past 5 minutes<br><br>
+<?php echo $_LANG['COMMUNITY']['COMMUNITY_UOL_INFO']; ?><br><br>
 <?php
 
 $dbquery = mysql_query("SELECT *, DATE_FORMAT(CONVERT_TZ(wo.`time`, '".$GMT[$SETTING['WEB_GMT']][0]."', '".verifygmt($_SESSION['userid'])."'), '%d-%m-%Y at %h:%i %p') as `time`, fa.displayname as dn FROM web_online wo LEFT JOIN (forum_accounts fa) ON wo.id = fa.id_account ORDER BY isguest, dn, id", $MySQL_CON) or die (mysql_error());
@@ -24,9 +24,9 @@ if (mysql_num_rows($dbquery)>0) {
 	<table cellpadding='3' cellspacing='0' width=620>
 		<tbody>
 			<tr>
-				<td class='rankingHeader' align='left' nowrap='nowrap' width=10%>Account&nbsp;</td>
-				<td class='rankingHeader' align='left' nowrap='nowrap' width=50%>Location&nbsp;</td>
-				<td class='rankingHeader' align='left' nowrap='nowrap' width=20%>Last Update&nbsp;</td>
+				<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['COMMUNITY']['COMMUNITY_UOL_ACC']; ?>&nbsp;</td>
+				<td class='rankingHeader' align='left' nowrap='nowrap' width=50%><?php echo $_LANG['COMMUNITY']['COMMUNITY_UOL_LOC']; ?>&nbsp;</td>
+				<td class='rankingHeader' align='left' nowrap='nowrap' width=20%><?php echo $_LANG['COMMUNITY']['COMMUNITY_UOL_LU']; ?>&nbsp;</td>
 			</tr>
 			<tr>
 				<td colspan='5' background='shared/wow-com/images/borders/metalborder/shadow.gif' height=8>
@@ -56,7 +56,7 @@ if (mysql_num_rows($dbquery)>0) {
 	metalborderdown();
 	
 } else {
-	errborder('No Accounts were found with On-Line status.');
+	errborder($_LANG['COMMUNITY']['ERR']);
 }
 
 parchdown();

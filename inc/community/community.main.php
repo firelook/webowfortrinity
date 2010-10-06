@@ -3,9 +3,9 @@ if (INCLUDED!==true) { include('index.htm'); exit; }
 
 parchup();
 
-title('Community Spotlight');
+title($_LANG['COMMUNITY']['COMMUNITY_SPOT']);
 
-subnav('Community');
+subnav($_LANG['COMMUNITY']['COMMUNITY']);
 
 parchdown();
 
@@ -41,7 +41,7 @@ $newtitle = $row2['title'];
 
 							  <a href="index.php?n=community" style="cursor: hand;">
 								<h2 class="community">
-								  <span class="hide">Community</span>
+								  <span class="hide"><?php echo $_LANG['COMMUNITY']['COMMUNITY']; ?></span>
 								</h2>
 							  </a>
 <a href="index.php?n=community" style="cursor: hand;"><span class="phatLootBox-visual comm"></span></a>
@@ -53,7 +53,7 @@ $newtitle = $row2['title'];
 
 							  <div class="community-top">
 
-								<h3><?php echo $newtitle; ?><i> - <?php echo $newposter; ?> on <?php echo $newdate; ?> </i>
+								<h3><?php echo $newtitle; ?><i> - <?php echo $newposter; ?> <?php echo $_LANG['COMMUNITY']['ON']; ?> <?php echo $newdate; ?> </i>
 								</h3>
 
 							  </div>
