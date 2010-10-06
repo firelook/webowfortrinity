@@ -228,7 +228,7 @@ div.framenocharblizz { position: absolute; background: url('new-hp/images/forum/
 </style>
 <![endif]-->
 <input type="hidden" name="avatar" value="nochar">
-<div id="character-post-info"><img src="new-hp/images/pixel.gif" height="1"><span class="mine">Please, Select a Character Avatar to Represent you in Forums:</span>
+<div id="character-post-info"><img src="new-hp/images/pixel.gif" height="1"><span class="mine"><?php echo $_LANG['ACCOUNT']['PS']; ?></span>
 </div><br>
 <table border="0" cellspacing="5" cellpadding="5" align="center" bgcolor=black width=500>
 	<tr>
@@ -355,7 +355,7 @@ function ma_valid() {
 				<table cellspacing = "0" cellpadding = "0" border = "0" width = "305">
 				<tr>
 					<td width = "24"><img src = "shared/wow-com/images/headers/subheader/subheader-left-sword.gif" width = "24" height = "20"></td>
-					<td width = "100%" bgcolor = "#05374A"><b class = "white">Password Rules:</b></td>
+					<td width = "100%" bgcolor = "#05374A"><b class = "white"><?php echo $_LANG['ACCOUNT']['PW_RULE']; ?></b></td>
 					<td width = "10"><img src = "shared/wow-com/images/headers/subheader/subheader-right.gif" width = "10" height = "20"></td>
 				</tr>
 
@@ -398,7 +398,7 @@ function ma_valid() {
 				</tr>
 				<tr>
 
-				      <td align=right NOWRAP><span><b>Account Name:</b></span></td>
+				      <td align=right NOWRAP><span><b><?php echo $_LANG['ACCOUNT']['ACC_NAME']; ?></b></span></td>
 				      
 				      <td align=left NOWRAP>
 				      <table border=0 cellspacing=0 cellpadding=0><tr><td><?php echo $row['username']; ?></td><td valign = "top">
@@ -520,21 +520,21 @@ function ma_valid() {
 						  <td align=right NOWRAP><span><b><?php echo $_LANG['ACCOUNT']['UPGRADES']; ?>:</b></span></td>
 
 							  <td align=left NOWRAP>
-							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc2'><input type=radio value='0' id="upgtbc2" name="uptbc"> No Expansion</label></td><td valign = "top">
+							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc2'><input type=radio value='0' id="upgtbc2" name="uptbc"><?php echo $_LANG['ACCOUNT']['UPGRADES1']; ?></label></td><td valign = "top">
 						   </td></tr></table></td>
 					</tr>
                      <tr>
 						  <td align=right NOWRAP><span><b><?php echo $_LANG['ACCOUNT']['UPGRADES']; ?>:</b></span></td>
 
 							  <td align=left NOWRAP>
-							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc1'><input type=radio value='1' id="upgtbc1" name="uptbc"> The Burning Crusades</label></td><td valign = "top">
+							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc1'><input type=radio value='1' id="upgtbc1" name="uptbc"><?php echo $_LANG['ACCOUNT']['UPGRADES2']; ?></label></td><td valign = "top">
 						   </td></tr></table></td>
 					</tr>
 				<tr>
 						  <td align=right NOWRAP><span><b><?php echo $_LANG['ACCOUNT']['UPGRADES']; ?>:</b></span></td>
 
 							  <td align=left NOWRAP>
-							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc'><input type=radio value='32' id="upgtbc" name="uptbc"> Wrath of the Lich King</label></td><td valign = "top">
+							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc'><input type=radio value='32' id="upgtbc" name="uptbc"><?php echo $_LANG['ACCOUNT']['UPGRADES3']; ?></label></td><td valign = "top">
 						   </td></tr></table></td>
 					</tr>
 				<tr>
@@ -664,7 +664,7 @@ function ma_valid() {
 			<table cellspacing = "0" cellpadding = "0" border = "0" width = "100%">
 			<tr>
 				<td width = "24"><img src = "shared/wow-com/images/headers/subheader/subheader-left-sword.gif" width = "24" height = "20"></td>
-				<td width = "100%" bgcolor = "#05374A"><b class = "white">Contact Address:</b></td>
+				<td width = "100%" bgcolor = "#05374A"><b class = "white"><?php echo $_LANG['ACCOUNT']['CON_ADD']; ?></b></td>
 				<td width = "10"><img src = "shared/wow-com/images/headers/subheader/subheader-right.gif" width = "10" height = "20"></td>
 			</tr>
 			</table>
@@ -676,7 +676,7 @@ function ma_valid() {
 			<tr>
 			      <td width=200 align=right>
 			      <font face="arial,helvetica" size=-1><span><b>
-			      <font color="#FF0000">*</font> First Name:
+			      <font color="#FF0000">*</font><?php echo $_LANG['ACCOUNT']['FIRST_NAME']; ?>
 			      </span></b></font>
 			      </td>
 			      <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td><input name="fname" MaxLength="32" style = "Width:200" taborder=1 /></td><td valign = "top">
@@ -686,7 +686,7 @@ function ma_valid() {
 			<tr>
 			      <td align=right>
 			      <font face="arial,helvetica" size=-1><span><b>
-			      <font color="#FF0000">*</font> Last Name:
+			      <font color="#FF0000">*</font><?php echo $_LANG['ACCOUNT']['LAST_NAME']; ?>
 			      </span></b></font>
 			      </td>
 
@@ -697,7 +697,7 @@ function ma_valid() {
 			<tr>
 			      <td align=right>
 			      <font face="arial,helvetica" size=-1><span><b>
-			      <font color="#FF0000">*</font> City:
+			      <font color="#FF0000">*</font><?php echo $_LANG['ACCOUNT']['CITY']; ?>
 			      </span></b></font>
 			      </td>
 			      <td align=left colspan = "2"><table border=0 cellspacing=0 cellpadding=0><tr><td><input name="city" MaxLength="32" style = "Width:150" taborder=5/ ></td><td valign = "top">
@@ -708,7 +708,7 @@ function ma_valid() {
 			      <td align=right>
 			      <font face="arial,helvetica" size=-1><span><b>
 
-			      <font color="#FF0000">*</font> Country:
+			      <font color="#FF0000">*</font><?php echo $_LANG['ACCOUNT']['COUNTRY']; ?>
 				  
 			      </span></b></font>
 			      </td>
@@ -765,7 +765,7 @@ foreach ($COUNTRY as $key=>$value) {
 			<tr>
 			      <td width=200 align=right>
 			      <font face="arial,helvetica" size=-1><span><b>
-			      <font color="#FF0000">*</font> Email:<br>
+			      <font color="#FF0000">*</font><?php echo $_LANG['ACCOUNT']['EMAIL']; ?><br>
 			      </span></b></font>
 			      </td>
 			      <td align=left>
@@ -779,7 +779,7 @@ foreach ($COUNTRY as $key=>$value) {
 						<tr>
 				<td align=right>
 					<font face="arial,helvetica" size=-1><span><b>
-					Enable Email:<br>
+					<?php echo $_LANG['ACCOUNT']['EEMAIL']; ?><br>
 					</span></b></font>
 					</td>
 					<td align=left>
@@ -853,7 +853,7 @@ foreach ($COUNTRY as $key=>$value) {
 												<td align=left>
 												<table border=0 cellspacing=0 cellpadding=0>
 													<tr>
-														<td><select name="shbd"><option value=3><?php echo $_LANG['ACCOUNT']['DATE_AND_AGE']; ?><option value=1><?php echo $_LANG['ACCOUNT']['DATE']; ?><option value=2 SELECTED><?php echo $_LANG['ACCOUNT']['AGE']; ?><option value=0>No</td>
+														<td><select name="shbd"><option value=3><?php echo $_LANG['ACCOUNT']['DATE_AND_AGE']; ?><option value=1><?php echo $_LANG['ACCOUNT']['DATE']; ?><option value=2 SELECTED><?php echo $_LANG['ACCOUNT']['AGE']; ?><option value=0><?php echo $_LANG['ACCOUNT']['NO']; ?></td>
 													</tr>
 												</table>
 											</td>
@@ -911,7 +911,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 										<tr>
 											<td align=right>
 												<font face="arial,helvetica" size=-1><span><b>
-												MSN:<br>
+												<?php echo $_LANG['ACCOUNT']['MSN']; ?><br>
 												</span></b></font>
 												</td>
 												<td align=left>
@@ -925,7 +925,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 										<tr>
 											<td align=right>
 												<font face="arial,helvetica" size=-1><span><b>
-												Skype:<br>
+												<?php echo $_LANG['ACCOUNT']['SKYPE']; ?><br>
 												</span></b></font>
 												</td>
 												<td align=left>
@@ -939,7 +939,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 										<tr>
 											<td align=right>
 												<font face="arial,helvetica" size=-1><span><b>
-												ICQ:<br>
+												<?php echo $_LANG['ACCOUNT']['ICQ']; ?><br>
 												</span></b></font>
 												</td>
 												<td align=left>
@@ -953,7 +953,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 										<tr>
 											<td align=right>
 												<font face="arial,helvetica" size=-1><span><b>
-												AIM:<br>
+												<?php echo $_LANG['ACCOUNT']['AIM']; ?><br>
 												</span></b></font>
 												</td>
 												<td align=left>
@@ -967,7 +967,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 										<tr>
 											<td align=right>
 												<font face="arial,helvetica" size=-1><span><b>
-												Yahoo:<br>
+												<?php echo $_LANG['ACCOUNT']['YAHOO']; ?><br>
 												</span></b></font>
 												</td>
 												<td align=left width=60%>
