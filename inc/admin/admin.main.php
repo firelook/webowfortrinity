@@ -110,6 +110,9 @@ if ($userlevel>=$SETTING['USER_WEB']) {
 								  <a href="index.php?n=admin.web&t=layout"><img class="bul" src="new-hp/images/pixel.gif" >Layout</a>
 								</li>
 								<li>
+								  <a href="index.php?n=admin.teamspeak&t=settings"><img class="bul" src="new-hp/images/pixel.gif" >Teamspeak</a>
+								</li>
+								<li>
 								  <img src="new-hp/images/pixel.gif" height=5>
 								</li>
 <?php 
@@ -325,6 +328,11 @@ switch($_REQUEST['n']) {
 	case "admin.database":
 	
 		if ($userlevel>=3) require('admin.database.php'); else errborder($_LANG['ERROR']['DENY_ACCESS']);
+
+	break;
+	case "admin.teamspeak":
+	
+		if ($userlevel>=3) require('admin.teamspeak.php'); else errborder($_LANG['ERROR']['DENY_ACCESS']);
 	
 	break;
 	case "admin.gallery":

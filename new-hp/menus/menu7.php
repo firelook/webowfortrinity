@@ -163,7 +163,7 @@ Menu1=new Array(bulletImg+"Spotlight"+underLine,"?n=community.spotlight",menuBg,
 Menu2=new Array(bulletImg+"Users On-Line (<?php echo mysql_num_rows($query);?>)"+underLine,"?n=community.online",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 Menu3=new Array(bulletImg+"Contests"+underLine,"?n=community.contests",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 Menu4=new Array(bulletImg+"Fan Art"+underLine,"?n=community.fanart",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-
+Menu5=new Array(bulletImg+"Teamspeak"+underLine,"?n=community.teamspeak",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 	</script>
 	<script type='text/javascript' src='../js/menu132_com.js'></script>
 <noscript>Your browser does not support script</noscript>

@@ -185,6 +185,9 @@ switch ($_REQUEST['n']) { //Load Selected Page
 	case "community.fanart":
 		include('inc/community/community.fanart.php');
 	break;
+	case "community.teamspeak":
+		include('inc/community/community.teamspeak.php');
+	break;
 	case "support.ingame":
 		include('inc/support/support.ingame.php');
 	break;
@@ -213,6 +216,7 @@ switch ($_REQUEST['n']) { //Load Selected Page
 	case "admin.donations":
 	case "admin.email":
 	case "admin.misc":
+	case "admin.teamspeak":
 		include('inc/admin/admin.main.php');
 	break;
 	case "install":

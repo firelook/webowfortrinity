@@ -415,6 +415,13 @@ switch ($_POST['step']) {
 												('web_def_template','Wrath_of_the_Lich_King'),
 												('db_restore','4'),
 												('db_backup','2'),
+												('ts3ip',''),
+												('ts3user',''),
+												('ts3pass',''),
+												('ts3qport','10011'),
+												('ts3sid','1'),
+												('ts3showac','true'),
+												('ts3showpw','false'),
 												('server_owner','".$WEBOW_OWNER."');", $MySQL_CON);
 						if ($_SESSION['IN_MYSQL_TABLES']=="dropcreate" and !$newquery) $haserrors.=mysql_error().'.<br>';
 						
