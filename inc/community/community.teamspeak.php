@@ -1,3 +1,6 @@
+<?php
+title($_LANG['COMMUNITY']['TEAMSPEAK']);
+?>
 <html>
 <head>
 <link rel="stylesheet" type="text/css" href="/teamspeak/tsstatus.css" />

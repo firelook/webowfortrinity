@@ -11,4 +11,5 @@ $_LANG['COMMUNITY']['CONTEST'] = "Community Contest";
 $_LANG['COMMUNITY']['CONTEST_CHALL'] = "Challenges";
 $_LANG['COMMUNITY']['ERR'] = "No Accounts were found with On-Line status.";
 $_LANG['COMMUNITY']['ON'] = "on";
+$_LANG['COMMUNITY']['TEAMSPEAK'] = "Teamspeak";
 ?>
