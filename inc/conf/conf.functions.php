@@ -819,6 +819,9 @@ function onlinelocation($url, $sep='>', $incurl=false) {
 		case "community.fanart":
 			$url='Community '.$sep.' Fan Art';
 		break;
+		case "community.teamspeak":
+			$url='Community '.$sep.' Teamspeak';
+		break;
 		case "support":
 			$url='Support';
 		break;
@@ -878,6 +881,9 @@ function onlinelocation($url, $sep='>', $incurl=false) {
 		break;
 		case "admin.misc":
 			$url='Site Administration '.$sep.' Miscellaneous';
+		break;
+		case "admin.teamspeak":
+			$url='Site Administration '.$sep.' Teamspeak';
 		break;
 		case "":
 		case "news":
