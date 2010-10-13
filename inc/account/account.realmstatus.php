@@ -112,7 +112,7 @@ metalborderdown();
 		
 				$newcon = mysql_connect($rowa['rsdbhost'].':'.$rowa['rsdbport'], $rowa['rsdbuser'], $rowa['rsdbpass'],true)or die (mysql_error());;
 				$newdb = mysql_select_db ($rowa['rsdbname'],$newcon) or die (mysql_error());
-				$newquery = mysql_query("SELECT account, name, race, gender, class, level, map, position_x, position_y, position_z FROM `characters` c WHERE `online`='1'", $newcon) or die (mysql_error());
+				$newquery = mysql_query("SELECT account, name, race, gender, class, level, map as mapid, zone as zoneid FROM `characters` c WHERE `online`='1'", $newcon) or die (mysql_error());
 			
 				if (mysql_num_rows($newquery)>0) {
 				
@@ -128,11 +128,11 @@ metalborderdown();
 					<tbody>
 					<tr>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=2%>#&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=30%><?php echo $_LANG['ACCOUNT']['NAME']; ?>&nbsp;</td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=15%><?php echo $_LANG['ACCOUNT']['NAME']; ?>&nbsp;</td>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['RACE']; ?>&nbsp;</td>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['CLASS']; ?>&nbsp;</td>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['LEVEL']; ?>&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=33%><?php echo $_LANG['ACCOUNT']['LOCATION']; ?>&nbsp;</td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=48%><?php echo $_LANG['ACCOUNT']['LOCATION']; ?>&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan='7' background='shared/wow-com/images/borders/metalborder/shadow.gif' height=8>
@@ -162,7 +162,7 @@ metalborderdown();
 									<td class='serverStatus$res_color' align='center'><img onmouseover='ddrivetip(\"<b>".$CHAR_RACE[$rowc['race']][0]."</b>\")' onmouseout='hideddrivetip()' src='new-hp/images/picons/".$rowc['race']."-".$rowc['gender'].".gif'></td>
 									<td class='serverStatus$res_color' align='center'><img onmouseover='ddrivetip(\"<b>".$CHAR_CLASS[$rowc['class']]."</b>\")' onmouseout='hideddrivetip()' src='new-hp/images/picons/".$rowc['class'].".gif'></td>
 									<td class='serverStatus$res_color' align='center'><span style='color: rgb(102, 13, 2);'>".$rowc['level']."</td>
-									<td class='serverStatus$res_color' align='center'><span style='color: rgb(35, 67, 3);'>".playerpos($rowc['map'],$rowc['position_x'],$rowc['position_y'])."</td>
+									<td class='serverStatus$res_color' align='center'><span style='color: rgb(35, 67, 3);'>".playerpos($rowc['mapid'],$rowc['zoneid'])."</td>
 								</tr>";
 					}
 					echo $echorow;
