@@ -160,6 +160,7 @@ Menu1=new Array("Site Map","/","shared/wow-com/images/subnav/button_bg.gif",8,15
 		Menu1_7_1=new Array(bulletImg+"Community Spotlight"+underLine,"?n=community.spotlight","",0,15,110,"","","","","","",-1,-1,-1,"","");
 		Menu1_7_2=new Array(bulletImg+"Contests"+underLine,"?n=community.contests","",0,15,110,"","","","","","",-1,-1,-1,"","");
 		Menu1_7_3=new Array(bulletImg+"Fan Art"+underLine,"?n=community.fanart","",0,15,110,"","","","","","",-1,-1,-1,"","");
+		Menu1_7_4=new Array(bulletImg+"Teamspeak"+underLine,"?n=community.teamspeak","",0,15,110,"","","","","","",-1,-1,-1,"","");
 		
 	Menu1_8=new Array(bulletImg+"Support"+underLine,"#","",4,15,110,"","","","","","",-1,-1,-1,"","");
 		Menu1_8_1=new Array(bulletImg+"In-Game Support"+underLine,"?n=support.ingame","",0,15,110,"","","","","","",-1,-1,-1,"","");

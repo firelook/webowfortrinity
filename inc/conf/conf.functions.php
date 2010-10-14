@@ -750,12 +750,7 @@ function onlinelocation($url, $sep='>', $incurl=false) {
 			}
 		break;
 		case "workshop.worldmap":
-			$url='Workshop '.$sep;
-			if ($m=='outland') {
-				$url.=' World Map of Outland';
-			} else {
-				$url.=' World Map of Azeroth';
-			}
+			$url='Workshop '.$sep.'Worldmap';
 		break;
 		case "media.screenshots":
 			$url='Media '.$sep.' Screenshots';

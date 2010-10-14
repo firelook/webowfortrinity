@@ -288,8 +288,6 @@ Menu1=new Array("<?php echo $GLOBALS['SETTING']['WEB_SITE_NAME']; ?>","?","share
 		Menu1_4_1=new Array(bulletImg+"PvP Rankings"+underLine,"?n=workshop.pvprankings",menuBg,<?php echo $i; ?>,15,140,"","","","","","",-1,-1,-1,"","");
 		<? echo $strmenu; ?>
 		Menu1_4_2=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap",menuBg,2,15,140,"","","","","","",-1,-1,-1,"","");
-			Menu1_4_2_1=new Array(bulletImg+"Azeroth"+underLine,"?n=workshop.worldmap&m=azeroth",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
-			Menu1_4_2_2=new Array(bulletImg+"Outland"+underLine,"?n=workshop.worldmap&m=outland",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
 			
 	Menu1_5=new Array(bulletImg+"Media"+underLine,"?",menuBg,3,15,110,"","","","","","",-1,-1,-1,"","");
 	
