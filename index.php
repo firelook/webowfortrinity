@@ -83,7 +83,7 @@ if ($haserrors!='') { //If Has General Erros, Block Page showing the Errors
 		$diflayout=".forums";
 	} else if ($_REQUEST['n']=='armory') {
 		$diflayout=".armory";
-	} else if ($_REQUEST['n']=='media.wallpapers' OR $_REQUEST['n']=='media.screenshots' OR $_REQUEST['n']=='community.fanart' OR $_REQUEST['n']=='workshop.worldmap' OR $_REQUEST['n']=='workshop.eventscalendar' ) {
+	} else if ($_REQUEST['n']=='media.wallpapers' OR $_REQUEST['n']=='media.screenshots' OR $_REQUEST['n']=='community.fanart' OR $_REQUEST['n']=='workshop.worldmap' ) {
 		$diflayout=".media";
 	} else {
 		$diflayout="";
@@ -136,9 +136,6 @@ switch ($_REQUEST['n']) { //Load Selected Page
 	break;
 	case "workshop.pvprankings":
 		include('inc/workshop/workshop.pvprankings.php');
-	break;
-	case "workshop.eventscalendar":
-		include('inc/workshop/workshop.eventscalendar.php'); parchdown();
 	break;
 	case "workshop.worldmap":
 		include('inc/workshop/workshop.worldmap.php');

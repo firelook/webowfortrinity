@@ -749,9 +749,6 @@ function onlinelocation($url, $sep='>', $incurl=false) {
 				}
 			}
 		break;
-		case "workshop.eventscalendar":
-			$url='Workshop '.$sep.' Events Calendar';
-		break;
 		case "workshop.worldmap":
 			$url='Workshop '.$sep;
 			if ($m=='outland') {

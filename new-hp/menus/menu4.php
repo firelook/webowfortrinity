@@ -153,12 +153,11 @@ require ('../../inc/conf/conf.functions.php');
 ?>
 Menu1=new Array(bulletImg+"PvP Rankings"+underLine,"?n=workshop.pvprankings",menuBg,<?php echo $i; ?>,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 <? echo $strmenu; ?>
-Menu2=new Array(bulletImg+"Events Calendar"+underLine,"?n=workshop.eventscalendar",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-Menu3=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap",menuBg,3,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-	Menu3_1=new Array(bulletImg+"Azeroth"+underLine,"?n=workshop.worldmap&m=azeroth",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
-	Menu3_2=new Array(bulletImg+"Outland"+underLine,"?n=workshop.worldmap&m=outland",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
-	Menu3_3=new Array(bulletImg+"Northrend"+underLine,"?n=workshop.worldmap&m=northrend",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
-Menu4=new Array(bulletImg+"Talent Calculators"+underLine,"?n=workshop.talentcalculator",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+Menu2=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap",menuBg,3,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+	Menu2_1=new Array(bulletImg+"Azeroth"+underLine,"?n=workshop.worldmap&m=azeroth",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
+	Menu2_2=new Array(bulletImg+"Outland"+underLine,"?n=workshop.worldmap&m=outland",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
+	Menu2_3=new Array(bulletImg+"Northrend"+underLine,"?n=workshop.worldmap&m=northrend",menuBg,0,15,65,"","","","","","",-1,-1,-1,"","");
+Menu3=new Array(bulletImg+"Talent Calculators"+underLine,"?n=workshop.talentcalculator",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 	</script>
 	<script type='text/javascript' src='../js/menu132_com.js'></script>
 <noscript>Your browser does not support script</noscript>

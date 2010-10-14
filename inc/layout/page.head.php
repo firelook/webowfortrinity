@@ -474,9 +474,6 @@ function countryopt(state) {
                                                   <a class="menuFiller" href="index.php?n=workshop.pvprankings">PvP Rankings</a>
                                                 </div>
                                                 <div style="font-weight:bold; text-decoration: none; font-family:arial,comic sans ms,technical; font-size: 11px; position: relative; left: -3px; background-image:url('new-hp/images/menu/mainmenu/bullet-trans-bg.gif');        width:139px; height:15px; _height:18px; padding:0px; margin:0px; _margin-bottom:-3px; border:0px; padding-left:10px;">
-                                                  <a class="menuFiller" href="index.php?n=workshop.eventscalendar">Events Calendar</a>
-                                                </div>
-                                                <div style="font-weight:bold; text-decoration: none; font-family:arial,comic sans ms,technical; font-size: 11px; position: relative; left: -3px; background-image:url('new-hp/images/menu/mainmenu/bullet-trans-bg.gif');        width:139px; height:15px; _height:18px; padding:0px; margin:0px; _margin-bottom:-3px; border:0px; padding-left:10px;">
                                                   <a class="menuFiller" href="index.php?n=workshop.worldmap">World Map</a>
                                                 </div>
                                                 <div style="font-weight:bold; text-decoration: none; font-family:arial,comic sans ms,technical; font-size: 11px; position: relative; left: -3px; background-image:url('new-hp/images/menu/mainmenu/bullet-trans-bg.gif');        width:139px; height:15px; _height:18px; padding:0px; margin:0px; _margin-bottom:-3px; border:0px; padding-left:10px;">
@@ -637,6 +634,9 @@ function countryopt(state) {
                                                 </div>
                                                 <div style="font-weight:bold; text-decoration: none; font-family:arial,comic sans ms,technical; font-size: 11px; position: relative; left: -3px; background-image:url('new-hp/images/menu/mainmenu/bullet-trans-bg.gif');        width:139px; height:15px; _height:18px; padding:0px; margin:0px; _margin-bottom:-3px; border:0px; padding-left:10px;">
                                                   <a class="menuFiller" href="index.php?n=community.fanart">Fan Art</a>
+                                                </div>
+												<div style="font-weight:bold; text-decoration: none; font-family:arial,comic sans ms,technical; font-size: 11px; position: relative; left: -3px; background-image:url('new-hp/images/menu/mainmenu/bullet-trans-bg.gif');        width:139px; height:15px; _height:18px; padding:0px; margin:0px; _margin-bottom:-3px; border:0px; padding-left:10px;">
+                                                  <a class="menuFiller" href="index.php?n=community.teamspeak">Teamspeak</a>
                                                 </div>
                                               </div>
                                             </ul>

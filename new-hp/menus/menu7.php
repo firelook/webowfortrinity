@@ -24,7 +24,7 @@ require ('../../inc/conf/conf.functions.php');
 		var underLine="";
 		var bulletImg="";
 	}
-	var NoOffFirstLineMenus=4;			// Number of main menu  items
+	var NoOffFirstLineMenus=5;			// Number of main menu  items
 						// Colorvariables:
 						// Color variables take HTML predefined color names or "#rrggbb" strings
 						//For transparency make colors and border color ""

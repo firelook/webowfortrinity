@@ -16,7 +16,7 @@
 		var underLine="";
 		var bulletImg="";
 	}
-	var NoOffFirstLineMenus=4;			// Number of main menu  items
+	var NoOffFirstLineMenus=3;			// Number of main menu  items
 						// Colorvariables:
 						// Color variables take HTML predefined color names or "#rrggbb" strings
 						//For transparency make colors and border color ""
@@ -129,21 +129,20 @@
 // For rollover images ItemText or background image format is:  "rollover?"+BaseHref+"Image1.jpg?"+BaseHref+"Image2.jpg" 
 Menu1=new Array(bulletImg+"PvP Rankings"+underLine,"?n=workshop.pvprankings",menuBg,<?php echo $i; ?>,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 <? echo $strmenu; ?>
-Menu2=new Array(bulletImg+"Events Calendar"+underLine,"?n=workshop.eventscalendar",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-Menu3=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap",menuBg,3,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-	Menu3_1=new Array(bulletImg+"Outland"+underLine,"?n=workshop.worldmap&m=outland",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu3_2=new Array(bulletImg+"Northrend"+underLine,"?n=workshop.worldmap&m=northrend",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu3_3=new Array(bulletImg+"Azeroth"+underLine,"?n=workshop.worldmap&m=azeroth",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-Menu4=new Array(bulletImg+"Talent Calculators"+underLine,"?n=workshop.talentcalculators",menuBg,11,15,145,"transparent","","","","transparent","",-1,-1,-1,"","");
-	Menu4_1=new Array(bulletImg+"Basic"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_2=new Array(bulletImg+"Death Knight"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_3=new Array(bulletImg+"Druid"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_4=new Array(bulletImg+"Hunter"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_5=new Array(bulletImg+"Mage"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_6=new Array(bulletImg+"Paladin"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_7=new Array(bulletImg+"Priest"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_8=new Array(bulletImg+"Rogue"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_9=new Array(bulletImg+"Shaman"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_10=new Array(bulletImg+"Warlock"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
-	Menu4_11=new Array(bulletImg+"Warrior"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+Menu2=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap",menuBg,3,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+	Menu2_1=new Array(bulletImg+"Outland"+underLine,"?n=workshop.worldmap&m=outland",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu2_2=new Array(bulletImg+"Northrend"+underLine,"?n=workshop.worldmap&m=northrend",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu2_3=new Array(bulletImg+"Azeroth"+underLine,"?n=workshop.worldmap&m=azeroth",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+Menu3=new Array(bulletImg+"Talent Calculators"+underLine,"?n=workshop.talentcalculators",menuBg,11,15,145,"transparent","","","","transparent","",-1,-1,-1,"","");
+	Menu3_1=new Array(bulletImg+"Basic"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_2=new Array(bulletImg+"Death Knight"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_3=new Array(bulletImg+"Druid"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_4=new Array(bulletImg+"Hunter"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_5=new Array(bulletImg+"Mage"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_6=new Array(bulletImg+"Paladin"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_7=new Array(bulletImg+"Priest"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_8=new Array(bulletImg+"Rogue"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_9=new Array(bulletImg+"Shaman"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_10=new Array(bulletImg+"Warlock"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
+	Menu3_11=new Array(bulletImg+"Warrior"+underLine,"/?",menuBg,0,17,80,"","","","","","",-1,-1,-1,"","");
 

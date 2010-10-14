@@ -15,7 +15,7 @@
 		var underLine="";
 		var bulletImg="";
 	}
-	var NoOffFirstLineMenus=3;			// Number of main menu  items
+	var NoOffFirstLineMenus=5;			// Number of main menu  items
 						// Colorvariables:
 						// Color variables take HTML predefined color names or "#rrggbb" strings
 						//For transparency make colors and border color ""
@@ -128,5 +128,6 @@
 // Fontsize, fontbold and fontitalic are ignored when set to -1.
 // For rollover images ItemText or background image format is:  "rollover?"+BaseHref+"Image1.jpg?"+BaseHref+"Image2.jpg" 
 Menu1=new Array(bulletImg+"Community Spotlight"+underLine,"?n=community.spotlight",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-Menu2=new Array(bulletImg+"Contests"+underLine,"?n=community.contests",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
-Menu3=new Array(bulletImg+"Fan Art"+underLine,"?n=community.fanart",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+Menu3=new Array(bulletImg+"Contests"+underLine,"?n=community.contests",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+Menu4=new Array(bulletImg+"Fan Art"+underLine,"?n=community.fanart",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+Menu5=new Array(bulletImg+"Teamspeak"+underLine,"?n=community.teamspeak",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
