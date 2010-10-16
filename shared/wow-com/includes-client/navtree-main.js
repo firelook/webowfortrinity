@@ -141,9 +141,8 @@ Menu1=new Array("Site Map","/","shared/wow-com/images/subnav/button_bg.gif",8,15
 				
 	Menu1_4=new Array(bulletImg+"Workshop"+underLine,"#","",4,15,110,"","","","","","",-1,-1,-1,"","");
 		Menu1_4_1=new Array(bulletImg+"PvP Rankings"+underLine,"?n=workshop.pvprankings","",0,15,110,"","","","","","",-1,-1,-1,"","");
-		Menu1_4_2=new Array(bulletImg+"Events Calendar"+underLine,"?n=workshop.eventscalendar","",0,15,110,"","","","","","",-1,-1,-1,"","");
-		Menu1_4_3=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap","",0,15,110,"","","","","","",-1,-1,-1,"","");
-		Menu1_4_4=new Array(bulletImg+"Talent Calculators"+underLine,"?n=workshop.talentcalculator","",0,15,110,"","","","","","",-1,-1,-1,"","");
+		Menu1_4_2=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap","",0,15,110,"","","","","","",-1,-1,-1,"","");
+		Menu1_4_3=new Array(bulletImg+"Talent Calculators"+underLine,"?n=workshop.talentcalculator","",0,15,110,"","","","","","",-1,-1,-1,"","");
 		
 	Menu1_5=new Array(bulletImg+"Media"+underLine,"/downloads/","",3,15,110,"","","","","","",-1,-1,-1,"",""); 
 		Menu1_5_1=new Array(bulletImg+"Screenshots"+underLine,"?n=media.screenshots","",0,15,110,"","","","","","",-1,-1,-1,"","");				        

@@ -289,7 +289,7 @@ Menu1=new Array("<?php echo $GLOBALS['SETTING']['WEB_SITE_NAME']; ?>","?","share
 		<? echo $strmenu; ?>
 		Menu1_4_2=new Array(bulletImg+"World Map"+underLine,"?n=workshop.worldmap",menuBg,2,15,140,"","","","","","",-1,-1,-1,"","");
 			
-	Menu1_5=new Array(bulletImg+"Media"+underLine,"?",menuBg,3,15,110,"","","","","","",-1,-1,-1,"","");
+		Menu1_5=new Array(bulletImg+"Media"+underLine,"?",menuBg,3,15,110,"","","","","","",-1,-1,-1,"","");
 	
 		Menu1_5_1=new Array(bulletImg+"Screenshots"+underLine,"?n=media.screenshots ",menuBg,0,15,140,"","","","","","",-1,-1,-1,"","");
 		Menu1_5_2=new Array(bulletImg+"Wallpapers"+underLine,"?n=media.wallpapers",menuBg,0,15,140,"","","","","","",-1,-1,-1,"","");
@@ -395,7 +395,7 @@ function topnav() {
 				<img src="shared/wow-com/images/topnav/topnav_div.gif">
 			<a href="?n=armory">The Armory</a>
 				<img src="shared/wow-com/images/topnav/topnav_div.gif">
-			<a href="?n=forums"><img src="new-hp/images/pixel.gif" style="position: absolute; width: 15px; height: 15px; border: 0;" id="topnaveforums">Forums</a>
+			<a href="?n=forums">Forums</a>
 			<?php } else { ?>
 			<a href="#" style="color: white;">&nbsp;<!--Install</a>
 				<img src="shared/wow-com/images/topnav/topnav_div.gif">

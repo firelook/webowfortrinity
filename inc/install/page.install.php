@@ -427,7 +427,7 @@ switch ($_POST['step']) {
 						
 						$query = mysql_query("SELECT * FROM realmlist", $MySQL_CON);
 						while($row = mysql_fetch_array($query)) {
-							$newquery =mysql_query("INSERT INTO realm_settings(id_realm,dbhost,dbport,dbuser,dbpass,dbname) VALUES('".$row['id']."','".$_POST['sqlhost']."','".$_POST['sqlport']."','".$_POST['sqluser']."','".$_POST['sqlpass']."','mangos')", $MySQL_CON);
+							$newquery =mysql_query("INSERT INTO realm_settings(id_realm,dbhost,dbport,dbuser,dbpass,dbname,dbname2) VALUES('".$row['id']."','".$_POST['sqlhost']."','".$_POST['sqlport']."','".$_POST['sqluser']."','".$_POST['sqlpass']."','characters','world')", $MySQL_CON);
 						}
 						if ($_SESSION['IN_MYSQL_TABLES']=="dropcreate" and !$newquery) $haserrors.=mysql_error().'.<br>';
 						
