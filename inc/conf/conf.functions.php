@@ -488,22 +488,14 @@ function check_port_status($ip, $port, $delay=0.5) {
 	error_reporting(1);
 }
 
-function playerpos($mapid, $zoneid) {
+function playerpos($zoneid) {
 
-global $MAP, $ZONE;
-if (!empty($MAP[$mapid]))
+global $ZONE;
+if (!empty($ZONE[$zoneid]))
   {
-  $zmap=$MAP[$mapid];
-  if (($mapid==0) or ($mapid==1) or ($mapid==530) or ($mapid==571))
-    {
-    $i=0; $c=count($ZONE[$mapid]);
-    while ($i<$c)
-      {
-  if ($ZONE[$mapid][$i][0] = $zoneid) { $zmap.=' - '. $ZONE[$mapid][$i][1]; break; }
-      $i++;
-      }
-    }
+  $zmap=$ZONE[$zoneid];
   } else $zmap="Unknown zone";
+  
 return $zmap;
 
 }

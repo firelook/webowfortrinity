@@ -112,7 +112,7 @@ metalborderdown();
 		
 				$newcon = mysql_connect($rowa['rsdbhost'].':'.$rowa['rsdbport'], $rowa['rsdbuser'], $rowa['rsdbpass'],true)or die (mysql_error());;
 				$newdb = mysql_select_db ($rowa['rsdbname'],$newcon) or die (mysql_error());
-				$newquery = mysql_query("SELECT account, name, race, gender, class, level, map as mapid, zone as zoneid FROM `characters` c WHERE `online`='1'", $newcon) or die (mysql_error());
+				$newquery = mysql_query("SELECT account, name, race, gender, class, level, zone as zoneid FROM `characters` c WHERE `online`='1'", $newcon) or die (mysql_error());
 			
 				if (mysql_num_rows($newquery)>0) {
 				
@@ -128,11 +128,11 @@ metalborderdown();
 					<tbody>
 					<tr>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=2%>#&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=15%><?php echo $_LANG['ACCOUNT']['NAME']; ?>&nbsp;</td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=25%><?php echo $_LANG['ACCOUNT']['NAME']; ?>&nbsp;</td>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['RACE']; ?>&nbsp;</td>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['CLASS']; ?>&nbsp;</td>
 						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['LEVEL']; ?>&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=48%><?php echo $_LANG['ACCOUNT']['LOCATION']; ?>&nbsp;</td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=38%><?php echo $_LANG['ACCOUNT']['LOCATION']; ?>&nbsp;</td>
 					</tr>
 					<tr>
 						<td colspan='7' background='shared/wow-com/images/borders/metalborder/shadow.gif' height=8>
@@ -143,8 +143,8 @@ metalborderdown();
 					while($rowc = mysql_fetch_array($newquery)) {
 					
 					$MySQL_DB = @mysql_select_db($MySQL_Set['DBREALM'], $MySQL_CON);
-					$queryb = mysql_query("SELECT a.id, a.username, b.gmlevel, last_login, fa.displayname as dn 
-					FROM `account` a LEFT JOIN (`forum_accounts`  fa) ON a.id = fa.id_account LEFT JOIN (`account_access` b) ON b.id = a.id
+					$queryb = mysql_query("SELECT a.id, a.username, IFNULL(b.gmlevel,0) as gmlevel, a.last_login, fa.displayname as dn 
+					FROM account a LEFT JOIN (`forum_accounts` fa) ON a.id = fa.id_account LEFT JOIN (`account_access` b) ON b.id = a.id
 					WHERE a.id='".$rowc['account']."' GROUP BY a.id ORDER BY a.username", $MySQL_CON) or die (mysql_error());
 						
 						$rowb = mysql_fetch_array($queryb);
@@ -162,7 +162,7 @@ metalborderdown();
 									<td class='serverStatus$res_color' align='center'><img onmouseover='ddrivetip(\"<b>".$CHAR_RACE[$rowc['race']][0]."</b>\")' onmouseout='hideddrivetip()' src='new-hp/images/picons/".$rowc['race']."-".$rowc['gender'].".gif'></td>
 									<td class='serverStatus$res_color' align='center'><img onmouseover='ddrivetip(\"<b>".$CHAR_CLASS[$rowc['class']]."</b>\")' onmouseout='hideddrivetip()' src='new-hp/images/picons/".$rowc['class'].".gif'></td>
 									<td class='serverStatus$res_color' align='center'><span style='color: rgb(102, 13, 2);'>".$rowc['level']."</td>
-									<td class='serverStatus$res_color' align='center'><span style='color: rgb(35, 67, 3);'>".playerpos($rowc['mapid'],$rowc['zoneid'])."</td>
+									<td class='serverStatus$res_color' align='center'><span style='color: rgb(35, 67, 3);'>".playerpos($rowc['zoneid'])."</td>
 								</tr>";
 					}
 					echo $echorow;
