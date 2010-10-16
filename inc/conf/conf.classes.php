@@ -396,30 +396,30 @@ $REALM_TYPE = array(
 );
 
 $CHAR_CLASS = array(
-	1 => 'Warrior',
-	2 => 'Paladin',
-	3 => 'Hunter',
-	4 => 'Rogue',
-	5 => 'Priest',
-    6 => 'DeathKnight',
-	7 => 'Shaman',
-	8 => 'Mage',
-	9 => 'Warlock',
-	11 => 'Druid'
+	1 => $_LANG['CONF_CLASSES']['WARRIOR'],
+	2 => $_LANG['CONF_CLASSES']['PALADIN'],
+	3 => $_LANG['CONF_CLASSES']['HUNTER'],
+	4 => $_LANG['CONF_CLASSES']['ROGUE'],
+	5 => $_LANG['CONF_CLASSES']['PRIEST'],
+    6 => $_LANG['CONF_CLASSES']['DEATHKNIGHT'],
+	7 => $_LANG['CONF_CLASSES']['SHAMAN'],
+	8 => $_LANG['CONF_CLASSES']['MAGE'],
+	9 => $_LANG['CONF_CLASSES']['WARLOCK'],
+	11 => $_LANG['CONF_CLASSES']['DRUID'],
 );
 
 $CHAR_PROFESSION = array(
-	164 => 'Blacksmithing',
-	165 => 'Leatherworking',
-	171 => 'Alchemy',
-	182 => 'Herbalism',
-	186 => 'Mining',
-	197 => 'Tailoring',
-	202 => 'Enginering',
-	333 => 'Enchanting',
-	393 => 'Skinning',
-	755 => 'Jewelcrafting',
-    773 => 'Inscription',
+	164 => $_LANG['CONF_CLASSES']['BLACK'],
+	165 => $_LANG['CONF_CLASSES']['LEATH'],
+	171 => $_LANG['CONF_CLASSES']['ALCHE'],
+	182 => $_LANG['CONF_CLASSES']['HERBA'],
+	186 => $_LANG['CONF_CLASSES']['MININ'],
+	197 => $_LANG['CONF_CLASSES']['TAILO'],
+	202 => $_LANG['CONF_CLASSES']['ENGIN'],
+	333 => $_LANG['CONF_CLASSES']['ENCHA'],
+	393 => $_LANG['CONF_CLASSES']['SKINN'],
+	755 => $_LANG['CONF_CLASSES']['JEWEL'],
+    773 => $_LANG['CONF_CLASSES']['INSCR'],
 );
 
 $CHAR_FACTION = array(

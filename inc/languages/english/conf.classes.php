@@ -107,4 +107,29 @@ $_LANG['CONF_CLASSES']['ZONE_4298'] = "Plaguelands: The Scarlet Enclave";
 $_LANG['CONF_CLASSES']['ZONE_4395'] = "Dalaran";
 $_LANG['CONF_CLASSES']['ZONE_4742'] = "Hrothgar's Landing";
 
+//CLASSES
+$_LANG['CONF_CLASSES']['WARRIOR'] = "Warrior";
+$_LANG['CONF_CLASSES']['PALADIN'] = "Paladin";
+$_LANG['CONF_CLASSES']['HUNTER'] = "Hunter";
+$_LANG['CONF_CLASSES']['ROGUE'] = "Rogue";
+$_LANG['CONF_CLASSES']['PRIEST'] = "Priest";
+$_LANG['CONF_CLASSES']['DEATHKNIGHT'] = "DeathKnight";
+$_LANG['CONF_CLASSES']['SHAMAN'] = "Shaman";
+$_LANG['CONF_CLASSES']['MAGE'] = "Mage";
+$_LANG['CONF_CLASSES']['WARLOCK'] = "Warlock";
+$_LANG['CONF_CLASSES']['DRUID'] = "Druid";
+
+//PROFESSIONS
+$_LANG['CONF_CLASSES']['BLACK'] = "Blacksmithing";
+$_LANG['CONF_CLASSES']['LEATH'] = "Leatherworking";
+$_LANG['CONF_CLASSES']['ALCHE'] = "Alchemy";
+$_LANG['CONF_CLASSES']['HERBA'] = "Herbalism";
+$_LANG['CONF_CLASSES']['MININ'] = "Mining";
+$_LANG['CONF_CLASSES']['TAILO'] = "Tailoring";
+$_LANG['CONF_CLASSES']['ENGIN'] = "Enginering";
+$_LANG['CONF_CLASSES']['ENCHA'] = "Enchanting";
+$_LANG['CONF_CLASSES']['SKINN'] = "Skinning";
+$_LANG['CONF_CLASSES']['JEWEL'] = "Jewelcrafting";
+$_LANG['CONF_CLASSES']['INSCR'] = "Inscription";
+
 ?>
