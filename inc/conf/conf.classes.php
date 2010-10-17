@@ -409,16 +409,20 @@ $CHAR_CLASS = array(
 );
 
 $CHAR_PROFESSION = array(
+	129 => $_LANG['CONF_CLASSES']['FIRST'],
 	164 => $_LANG['CONF_CLASSES']['BLACK'],
 	165 => $_LANG['CONF_CLASSES']['LEATH'],
 	171 => $_LANG['CONF_CLASSES']['ALCHE'],
 	182 => $_LANG['CONF_CLASSES']['HERBA'],
+	185 => $_LANG['CONF_CLASSES']['COCKI'],
 	186 => $_LANG['CONF_CLASSES']['MININ'],
 	197 => $_LANG['CONF_CLASSES']['TAILO'],
 	202 => $_LANG['CONF_CLASSES']['ENGIN'],
 	333 => $_LANG['CONF_CLASSES']['ENCHA'],
+	356 => $_LANG['CONF_CLASSES']['FISHI'],
 	393 => $_LANG['CONF_CLASSES']['SKINN'],
 	755 => $_LANG['CONF_CLASSES']['JEWEL'],
+	462 => $_LANG['CONF_CLASSES']['RIDIN'],
     773 => $_LANG['CONF_CLASSES']['INSCR'],
 );
 
@@ -428,16 +432,16 @@ $CHAR_FACTION = array(
 );
 
 $CHAR_RACE = array(
-	1 => array('Human', 0),
-	2 => array('Orc', 1),
-	3 => array('Dwarf',  0),
-	4 => array('Night Elf', 0),
-	5 => array('Undead', 1),
-	6 => array('Tauren', 1),
-	7 => array('Gnome',  0),
-	8 => array('Troll', 1),
-	10 => array('Blood Elf', 1),
-	11 => array('Draenei',  0),
+	1 => array($_LANG['CONF_RACE']['HUMAN'], 0),
+	2 => array($_LANG['CONF_RACE']['ORC'], 1),
+	3 => array($_LANG['CONF_RACE']['DWARF'],  0),
+	4 => array($_LANG['CONF_RACE']['NELF'], 0),
+	5 => array($_LANG['CONF_RACE']['UNDEAD'], 1),
+	6 => array($_LANG['CONF_RACE']['TAUREN'], 1),
+	7 => array($_LANG['CONF_RACE']['GNOME'],  0),
+	8 => array($_LANG['CONF_RACE']['TROLL'], 1),
+	10 => array($_LANG['CONF_RACE']['BELF'], 1),
+	11 => array($_LANG['CONF_RACE']['DRAENEI'],  0),
 );
 
 $TICKET_CATEGORY = array(

@@ -1,15 +1,15 @@
 <?php
 //Englisch
 
-//$PASSWORD_QUESTION
+//PASSWORD QUESTIONS
 $_LANG['CONF_CLASSES']['PQ_1'] = "Mother's maiden name?";
 $_LANG['CONF_CLASSES']['PQ_2'] = "High school?";
 $_LANG['CONF_CLASSES']['PQ_3'] = "City of birth?";
 $_LANG['CONF_CLASSES']['PQ_4'] = "Street you grew up on?";
-$_LANG['CONF_CLASSES']['PQ_5'] = "Father's middle name?";
+$_LANG['CONF_CLASSES']['PQ_5'] = "Father's maiden name?";
 $_LANG['CONF_CLASSES']['PQ_6'] = "Name of your first pet?";
 
-//$FORUM_GROUP
+//FORUM GROUPS
 $_LANG['CONF_CLASSES']['FG_0'] = "Netherstorm";
 $_LANG['CONF_CLASSES']['FG_1'] = "NetherWoW";
 $_LANG['CONF_CLASSES']['FG_2'] = "Bugtracker";
@@ -18,7 +18,7 @@ $_LANG['CONF_CLASSES']['FG_4'] = "OFF Topic";
 $_LANG['CONF_CLASSES']['FG_5'] = "Spender";
 $_LANG['CONF_CLASSES']['FG_6'] = "Team Bereich";
 
-//$USER_LEVEL
+//USER LEVEL
 $_LANG['CONF_CLASSES']['UL_0'] = "User";
 $_LANG['CONF_CLASSES']['UL_1'] = "Moderator";
 $_LANG['CONF_CLASSES']['UL_2'] = "Game Master";
@@ -120,16 +120,32 @@ $_LANG['CONF_CLASSES']['WARLOCK'] = "Warlock";
 $_LANG['CONF_CLASSES']['DRUID'] = "Druid";
 
 //PROFESSIONS
+$_LANG['CONF_CLASSES']['FIRST'] = "First Aid";
 $_LANG['CONF_CLASSES']['BLACK'] = "Blacksmithing";
 $_LANG['CONF_CLASSES']['LEATH'] = "Leatherworking";
 $_LANG['CONF_CLASSES']['ALCHE'] = "Alchemy";
 $_LANG['CONF_CLASSES']['HERBA'] = "Herbalism";
+$_LANG['CONF_CLASSES']['COCKI'] = "Cocking";
 $_LANG['CONF_CLASSES']['MININ'] = "Mining";
 $_LANG['CONF_CLASSES']['TAILO'] = "Tailoring";
 $_LANG['CONF_CLASSES']['ENGIN'] = "Enginering";
 $_LANG['CONF_CLASSES']['ENCHA'] = "Enchanting";
+$_LANG['CONF_CLASSES']['FISHI'] = "Fishing";
 $_LANG['CONF_CLASSES']['SKINN'] = "Skinning";
 $_LANG['CONF_CLASSES']['JEWEL'] = "Jewelcrafting";
+$_LANG['CONF_CLASSES']['RIDIN'] = "Riding";
 $_LANG['CONF_CLASSES']['INSCR'] = "Inscription";
+
+//RACE
+$_LANG['CONF_RACE']['HUMAN'] = "Human";
+$_LANG['CONF_RACE']['ORC'] = "Orc";
+$_LANG['CONF_RACE']['DWARF'] = "Dwarf";
+$_LANG['CONF_RACE']['NELF'] = "Night Elf";
+$_LANG['CONF_RACE']['UNDEAD'] = "Undead";
+$_LANG['CONF_RACE']['TAUREN'] = "Tauren";
+$_LANG['CONF_RACE']['GNOME'] = "Gnome";
+$_LANG['CONF_RACE']['TROLL'] = "Troll";
+$_LANG['CONF_RACE']['BELF'] = "Blood Elf";
+$_LANG['CONF_RACE']['DRAENEI'] = "Draenei";
 
 ?>
