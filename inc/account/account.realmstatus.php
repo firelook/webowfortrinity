@@ -127,12 +127,12 @@ metalborderdown();
 				<table cellpadding='3' cellspacing='0' width=620>
 					<tbody>
 					<tr>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=2%>#&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=25%><?php echo $_LANG['ACCOUNT']['NAME']; ?>&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['RACE']; ?>&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['CLASS']; ?>&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><?php echo $_LANG['ACCOUNT']['LEVEL']; ?>&nbsp;</td>
-						<td class='rankingHeader' align='left' nowrap='nowrap' width=38%><?php echo $_LANG['ACCOUNT']['LOCATION']; ?>&nbsp;</td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=2%><center>#&nbsp;</td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=25%><center><?php echo $_LANG['ACCOUNT']['NAME']; ?>&nbsp;</center></td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><center><?php echo $_LANG['ACCOUNT']['RACE']; ?>&nbsp;</center></td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><center><?php echo $_LANG['ACCOUNT']['CLASS']; ?>&nbsp;</center></td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=10%><center><?php echo $_LANG['ACCOUNT']['LEVEL']; ?>&nbsp;</center></td>
+						<td class='rankingHeader' align='left' nowrap='nowrap' width=38%><center><?php echo $_LANG['ACCOUNT']['LOCATION']; ?>&nbsp;</center></td>
 					</tr>
 					<tr>
 						<td colspan='7' background='shared/wow-com/images/borders/metalborder/shadow.gif' height=8>
@@ -153,12 +153,12 @@ metalborderdown();
 							
 							$echorow .="<tr>
 									<td class='serverStatus$res_color' align='center'><span style='color: rgb(35, 67, 3);'>".$rowb['id']."</td>
-									<td class='serverStatus$res_color' align='left'><span onmouseover='ddrivetip(\"<b>".$rowb['dn']."</b>";
+									<td class='serverStatus$res_color' align='left'><center><span onmouseover='ddrivetip(\"<b>".$rowb['dn']."</b>";
 							if (verifylevel($_SESSION['userid'])>0) {
 								$echorow .= " (".$rowb['username'].")<br><i>" . $USER_LEVEL[$rowb['gmlevel']]."</i><br>";
 							}
 							
-							$echorow .= "\")' onmouseout='hideddrivetip()' style='color: rgb(35, 67, 3);'>".$rowc['name']."</small></td>
+							$echorow .= "\")' onmouseout='hideddrivetip()' style='color: rgb(35, 67, 3);'>".$rowc['name']."</small></center></td>
 									<td class='serverStatus$res_color' align='center'><img onmouseover='ddrivetip(\"<b>".$CHAR_RACE[$rowc['race']][0]."</b>\")' onmouseout='hideddrivetip()' src='new-hp/images/picons/".$rowc['race']."-".$rowc['gender'].".gif'></td>
 									<td class='serverStatus$res_color' align='center'><img onmouseover='ddrivetip(\"<b>".$CHAR_CLASS[$rowc['class']]."</b>\")' onmouseout='hideddrivetip()' src='new-hp/images/picons/".$rowc['class'].".gif'></td>
 									<td class='serverStatus$res_color' align='center'><span style='color: rgb(102, 13, 2);'>".$rowc['level']."</td>

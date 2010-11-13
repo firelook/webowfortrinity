@@ -105,6 +105,7 @@ $_LANG['CONF_CLASSES']['ZONE_3703'] = "Shattrath";
 $_LANG['CONF_CLASSES']['ZONE_3711'] = "Sholazarbecken";
 $_LANG['CONF_CLASSES']['ZONE_4080'] = "Insel von Quel'Danas";
 $_LANG['CONF_CLASSES']['ZONE_4197'] = "Tausendwintersee";
+$_LANG['CONF_CLASSES']['ZONE_4272'] = "Hallen der Blitze";
 $_LANG['CONF_CLASSES']['ZONE_4298'] = "Pestländer: Die Scharlachrote Enklave";
 $_LANG['CONF_CLASSES']['ZONE_4395'] = "Dalaran";
 $_LANG['CONF_CLASSES']['ZONE_4742'] = "Hrothgars Landestelle";

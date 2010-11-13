@@ -109,7 +109,6 @@ $_LANG['ACCOUNT']['LAST_NAME'] = "Last Name:";
 $_LANG['ACCOUNT']['LAST_UPDATE'] = "Last Update";
 $_LANG['ACCOUNT']['LEVEL'] = "Level";
 $_LANG['ACCOUNT']['LOCATION'] = "Location";
-$_LANG['ACCOUNT']['LOCATION'] = "Location";
 $_LANG['ACCOUNT']['LOGIN'] = "Login";
 $_LANG['ACCOUNT']['LOG_IN'] = "Log In";
 $_LANG['ACCOUNT']['LOST_ACC_LINK_MEX'] = "Forgot your Account Name or Password?";

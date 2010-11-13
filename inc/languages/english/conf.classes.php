@@ -105,6 +105,7 @@ $_LANG['CONF_CLASSES']['ZONE_3703'] = "Shattrath City";
 $_LANG['CONF_CLASSES']['ZONE_3711'] = "Sholazar Basin";
 $_LANG['CONF_CLASSES']['ZONE_4080'] = "Isle of Quel'Danas";
 $_LANG['CONF_CLASSES']['ZONE_4197'] = "Wintergrasp";
+$_LANG['CONF_CLASSES']['ZONE_4272'] = "Halls of Lightning";
 $_LANG['CONF_CLASSES']['ZONE_4298'] = "Plaguelands: The Scarlet Enclave";
 $_LANG['CONF_CLASSES']['ZONE_4395'] = "Dalaran";
 $_LANG['CONF_CLASSES']['ZONE_4742'] = "Hrothgar's Landing";

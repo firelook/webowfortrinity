@@ -1,5 +1,5 @@
 <?php
-//English
+//Deutsch
 $_LANG['ACCOUNT']['ACC_ACTIVATION'] = "Account Aktivierung";
 $_LANG['ACCOUNT']['ACC_ALREADY_ACTIVATED'] = "Konto bereits aktiviert.";
 $_LANG['ACCOUNT']['ACC_CREATE'] = "Konto erstellen";
@@ -104,8 +104,7 @@ $_LANG['ACCOUNT']['NEW_ACC_NAME_PWD_MUST_DIFFER'] = "Neue Account-Namen und Pass
 $_LANG['ACCOUNT']['LAST_NAME'] = "Nachname";
 $_LANG['ACCOUNT']['LAST_UPDATE'] = "Letztes Update";
 $_LANG['ACCOUNT']['LEVEL'] = "Level";
-$_LANG['ACCOUNT']['Location'] = "Ort";
-$_LANG['ACCOUNT']['Location'] = "Ort";
+$_LANG['ACCOUNT']['LOCATION'] = "Ort";
 $_LANG['ACCOUNT']['LOGIN'] = "Login";
 $_LANG['ACCOUNT']['LOG_IN'] ="Anmelden";
 $_LANG['ACCOUNT']['LOST_ACC_LINK_MEX'] = "Haben Sie Ihr Account-Name oder Passwort vergessen?";
@@ -146,7 +145,7 @@ $_LANG['ACCOUNT']['PWD_CHAR_TYPES_ADVICE'] = "muss zwischen sechs und sechzehn Z
 $_LANG['ACCOUNT']['PWD_CHECK'] = "Passwort ";
 $_LANG['ACCOUNT']['PWD_HINT_INFO'] =" Nach dem Erstellen eines Kontos Name, bitte wählen Sie ein Passwort aus der Drop-Down-Menü, und geben Sie die entsprechende Antwort in der Antwort ein. Diese werden verwendet, um Ihr Konto Wenn Sie Ihr Passwort vergessen haben.";
 $_LANG['ACCOUNT']['PWD_HINT'] = "Passwort";
-$_LANG['ACCOUNT']['RACE'] = "Race";
+$_LANG['ACCOUNT']['RACE'] = "Rasse";
 $_LANG['ACCOUNT']['REALM_NAME'] = "Realm Name";
 $_LANG['ACCOUNT']['REALM_STATUS_INFO'] = "<img src=\"shared/wow-com/images/smallcaps/plain/D.gif\" align=\"left\">ies Seite listet alle verfügbaren World of Warcraft Realms sowie der Status der einzelnen. ein Reich werden kann als entweder <img src = \"shared/wow-com/images/icons/serverstatus/uparrow2.gif\" width = \"18\" height = \"19\" style = \"vertical-align: bottom;\"><b style = \"color: #234303;\">Up</b> or <img src = \"shared/wow-com/images/icons/serverstatus/downarrow2.gif\" width = \"18\" height = \"19\" style = \"vertical-align: bottom;\"><b style = \"color: #660D02;\">Down</b>.Mitteilungen im Zusammenhang mit Realm-Status und geplante Wartung werden in der <a href =\"\">Realm Status Forum</a>. Lassen Sie uns im Voraus entschuldigen, wenn Ihr Reich ist als nach unten. Chancen sind wir arbeiten fleißig, um es wieder online, so schnell wie möglich.";
 $_LANG['ACCOUNT']['REALM_STATUS'] = "Realm-Status";
