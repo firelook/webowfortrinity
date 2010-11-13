@@ -6,7 +6,7 @@ $startTime = array_sum(explode(" ",microtime()));
 
 define('INCLUDED', true);
 
-$DEFAULT_LANG='english';
+$DEFAULT_LANG='deutsch';
 $SHOW_LINKS=false;
 $FULL_LAYOUT=true;
 $BROWSER_LANG=substr($_SERVER['HTTP_ACCEPT_LANGUAGE'], 0, 2);

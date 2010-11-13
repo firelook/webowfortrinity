@@ -1,6 +1,6 @@
 <?php
 //English
-$_LANG['ACCOUNT']['ACC_ACTIVATION'] = "Account Activation";
+$_LANG['ACCOUNT']['ACC_ACTIVATION'] = "Account activation";
 $_LANG['ACCOUNT']['ACC_ALREADY_ACTIVATED'] = "Account already activated.";
 $_LANG['ACCOUNT']['ACC_CREATE'] = "Create Account";
 $_LANG['ACCOUNT']['ACC_DETAILS'] = "Account Details";
@@ -26,7 +26,7 @@ $_LANG['ACCOUNT']['ACTIV_ACC_EMAIL_ERR'] = "Couldn't Send an Activation e-mail!"
 $_LANG['ACCOUNT']['ACTIV_ACC_EMAIL_SENT'] = "An Activation e-mail was successfuly sent!";
 $_LANG['ACCOUNT']['ACTIV_ACC_ERROR'] = "Could Not Activate Account.";
 $_LANG['ACCOUNT']['ACTIV_CODE'] = "Activation Code";
-$_LANG['ACCOUNT']['ACTIV_CODE_SEND_MAIL'] = "Send me an e-mail with Activation Code";
+$_LANG['ACCOUNT']['ACTIV_CODE_SEND_MAIL'] = "Send activation code again";
 $_LANG['ACCOUNT']['AGE'] = "Age (X years)";
 $_LANG['ACCOUNT']['AGREEMENT_INFO'] = "Read through the following agreement and click \"<b>I Agree</b>\" to proceed or \"<b>I Disagree</b>\" to abort the Account Creation process.";
 $_LANG['ACCOUNT']['AIM'] = "AIM:";

@@ -1,6 +1,6 @@
 <?php
 //English
-$_LANG['ACCOUNT']['ACC_ACTIVATION'] = "Konto Aktivierung";
+$_LANG['ACCOUNT']['ACC_ACTIVATION'] = "Account Aktivierung";
 $_LANG['ACCOUNT']['ACC_ALREADY_ACTIVATED'] = "Konto bereits aktiviert.";
 $_LANG['ACCOUNT']['ACC_CREATE'] = "Konto erstellen";
 $_LANG['ACCOUNT']['ACC_DETAILS'] = "Konto-Details";
@@ -11,7 +11,7 @@ $_LANG['ACCOUNT']['ACC_INACTIVE'] .= "<br><br>Ihr Konto ist immer noch inaktiv, 
 $_LANG['ACCOUNT']['ACC_INACTIVE'] .= "<br><a href=\"http://SERVER_HTTP_HOST_dirname_SERVER_PHP_SELF/?n=account.activation&id=ROW_ID&act=ROW_ACT\">Konto Aktivierung</a>";
 $_LANG['ACCOUNT']['ACC_INACTIVE'] .= "<br><br>
 Wenn der Link oben nicht redirect Sie, gehen Sie manuell auf unserer Website Kontoaktivierung Seite, und verwenden Sie den folgenden Code ein: <br>Der Aktivierungs-Code: <b>ROW_ACT</b><br><br>Danke!";
-$_LANG['ACCOUNT']['ACC_NAME'] = "Konto Name";
+$_LANG['ACCOUNT']['ACC_NAME'] = "Benutzername";
 $_LANG['ACCOUNT']['ACC_NAME_ALREADY_EXISTS'] = "Konto Name ist bereits vorhanden.<br>";
 $_LANG['ACCOUNT']['ACC_NAME_RULES'] = "Konto Name Regeln";
 $_LANG['ACCOUNT']['ACC_NOT_EXIST'] = "Konto nicht vorhanden.";
@@ -27,9 +27,9 @@ $_LANG['ACCOUNT']['ACTIV_ACC_EMAIL_ERR'] = "Kann nicht Senden Sie eine Aktivieru
 $_LANG['ACCOUNT']['ACTIV_ACC_EMAIL_SENT'] = "n Aktivierung E-Mail wurde erfolgreich verschickt!";
 $_LANG['ACCOUNT']['ACTIV_ACC_ERROR'] = "Kann Konto nicht aktiviert.";
 $_LANG['ACCOUNT']['ACTIV_CODE'] = "Aktivierungs-Code";
-$_LANG['ACCOUNT']['ACTIV_CODE_SEND_MAIL'] = "enden Sie mir eine E-Mail mit Aktivierungs-Code";
+$_LANG['ACCOUNT']['ACTIV_CODE_SEND_MAIL'] = "Aktivierungs-Code erneut zusenden";
 $_LANG['ACCOUNT']['AGE'] = "Alter (X Jahr)";
-$_LANG['ACCOUNT']['AGREEMENT_INFO'] = "Lesen Sie die folgende Vereinbarung und klicken Sie auf \"<b>Ich stimme zu</b>\"zu verfahren oder \"<b>Ich bin nicht einverstanden</b>\"zu Abbruch der Erstellung Ihres Kontos helfen.";
+$_LANG['ACCOUNT']['AGREEMENT_INFO'] = "Lese die folgende Vereinbarung und klicken auf \"<b>I Agree</b>\"um fortzufahren oder<br> \"<b>I Disagree</b>\" wenn Du der Vereinbarung nicht zustimmst.";
 $_LANG['ACCOUNT']['ANSWER'] = "Antwort";
 $_LANG['ACCOUNT']['ANSWER_INFO'] = "<b>Hinweis:</b> Diese Antwort auf Ihre geheime Frage der einzige Weg ist, können Sie ein automatisiertes Passwort-Reset. Bitte stellen Sie sicher, Sie eine Antwort, die Sie sich erinnern werden -- wenn Sie nicht in der Lage, mit dieser Antwort genau in die Zukunft, werden Sie möglicherweise nicht in der Lage, Ihr Passwort, wenn sie verloren gehen oder gestohlen werden!";
 $_LANG['ACCOUNT']['BACK'] = "Zurück";
@@ -154,9 +154,9 @@ $_LANG['ACCOUNT']['REG_STEP_1'] = "Schritt 1 - SETTING_WEB_SITE_NAME - Terms of 
 $_LANG['ACCOUNT']['REG_STEP_2'] = "Schritt 2 - Sicherheits-Check";
 $_LANG['ACCOUNT']['REG_STEP_3'] = "Schritt 3 - Kontakt Information";
 $_LANG['ACCOUNT']['REG_STEP_4'] = "Schritt 4 - Account Creation";
-$_LANG['ACCOUNT']['SECURITY_CHECK'] =" Security Check ";
-$_LANG['ACCOUNT']['SECURITY_CODE_INFO'] = "Geben Sie die Zeichen, wie sie sind in der Abbildung unten. Das ist nicht Ihr Passwort.";
-$_LANG['ACCOUNT']['SECURITY_INPUT'] = "Sicherheit Input";
+$_LANG['ACCOUNT']['SECURITY_CHECK'] ="Sicherheits-Check ";
+$_LANG['ACCOUNT']['SECURITY_CODE_INFO'] = "	&Uuml;bertrage bitte die Zeichen in das untere Feld um fortzufahren.";
+$_LANG['ACCOUNT']['SECURITY_INPUT'] = "Sicherheitscode:";
 $_LANG['ACCOUNT']['SECUR_MEX_QUIT_BROWSER'] = "Seien Sie vorsichtig bei jedem Programm oder Web-Seite, die Sie auffordert, für Ihren World of Warcraft Account-Namen und Passwort an. Secure World of Warcraft-Webseiten, die Sie nach Ihrem Account-Namen und Passwort in der Regel haben URLs, die mit \"http://SERVER_HTTP_HOST_dirname_SERVER_PHP_SELF/\". Darüber hinaus sollten Sie Ihren Browser visuell deuten darauf hin, dass Sie den Zugriff auf eine sichere Seite. ";
 $_LANG['ACCOUNT']['SEL_SECRET_QUESTION'] = "Bitte wählen Sie eine geheime Frage ";
 $_LANG['ACCOUNT']['SEND'] = "Senden";
