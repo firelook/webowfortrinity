@@ -185,6 +185,9 @@ switch ($_REQUEST['n']) { //Load Selected Page
 	case "community.teamspeak":
 		include('inc/community/community.teamspeak.php');
 	break;
+	case "community.vote":
+		include('inc/community/community.vote.php');
+	break;
 	case "support.ingame":
 		include('inc/support/support.ingame.php');
 	break;

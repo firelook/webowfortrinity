@@ -6,6 +6,7 @@ $forceshow=true;
 if ($_REQUEST['lang']=='') { $_REQUEST['lang']=$_COOKIE['SITE_LANG']; }
 
 $textpath = "inc/languages/".$_REQUEST['lang']."/text.".$_REQUEST['t'].".txt";
+$textpath = "vote/tabs/".$_REQUEST['t'].".php";
 
 	if ($_POST['save']=='true') {
 		$fhw = @fopen($textpath , "w");
@@ -76,7 +77,7 @@ function fas_valid() {
 		  <font face="arial,helvetica" size=-1><span><b>
 		  Message: </span></b></font> </td>
 		  <td align=left><table border=0 cellspacing=0 cellpadding=0><tr><td>
-		  <textarea name="newstext"  style="overflow: auto; width: 350px; height: 500px; display: block;"><?php
+		  <textarea WRAP=OFF name="newstext" style="overflow: auto; width: 350px; height: 500px; display: block;"><?php
 		  $fh = @fopen($textpath , "r");
 		  echo @fread($fh, filesize($textpath));
 		  @fclose($fh);

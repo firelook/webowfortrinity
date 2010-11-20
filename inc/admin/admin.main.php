@@ -275,6 +275,18 @@ if ($userlevel>=3) {
 								<li>
 								  <a href="index.php?n=admin.text&t=jobs"><img class="bul" src="new-hp/images/pixel.gif" >Jobs</a>
 								</li>
+								<li>
+								  <img src="new-hp/images/pixel.gif" height=5>
+								</li>
+								<li>
+								  <a><img src="new-hp/images/icons/faq.jpg">Vote Settings</a>
+								</li>
+								<li>
+								  <a href="index.php?n=admin.text&t=sites"><img class="bul" src="new-hp/images/pixel.gif" >Vote Seiten</a>
+								</li>
+								<li>
+								  <a href="index.php?n=admin.text&t=rewards"><img class="bul" src="new-hp/images/pixel.gif" >Vote Rewards</a>
+								</li>
 <?php 
 }
 ?>

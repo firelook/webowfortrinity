@@ -1,5 +1,5 @@
 <?php
-if (INCLUDED!==true) { include('index.htm'); exit; }
+//if (INCLUDED!==true) { include('index.htm'); exit; }
 
 //PHP Definitions
 error_reporting(E_ALL ^ E_NOTICE);

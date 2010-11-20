@@ -53,7 +53,7 @@ var postId1=<? echo $newdate."-".$i; ?>
 										  <h1>
 											<a href="javascript:dummyFunction();"><? echo $newtitle; ?></a>
 										  </h1>
-										  <span class="user">Posted by: </span><small><? echo $newposter; ?><span class="user">|</span>&nbsp;<span class="posted-date"><? echo $newdate; ?></span></small>
+										  <span class="user"><?php echo $_LANG['NEWS']['PBY']; ?></span><small><? echo $newposter; ?><span class="user"><?php echo $_LANG['NEWS']['PON']; ?></span><span class="posted-date"><? echo $newdate; ?></span></small>
 										</li>
 										<li class="news-entry-date">
 										  <span><strong><? echo $newdate; ?></strong></span>

@@ -534,7 +534,7 @@ function ma_valid() {
 						  <td align=right NOWRAP><span><b><?php echo $_LANG['ACCOUNT']['UPGRADES']; ?>:</b></span></td>
 
 							  <td align=left NOWRAP>
-							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc'><input type=radio value='32' id="upgtbc" name="uptbc"><?php echo $_LANG['ACCOUNT']['UPGRADES3']; ?></label></td><td valign = "top">
+							  <table border=0 cellspacing=0 cellpadding=0><tr><td><label for='upgtbc'><input type=radio value='2' id="upgtbc" name="uptbc"><?php echo $_LANG['ACCOUNT']['UPGRADES3']; ?></label></td><td valign = "top">
 						   </td></tr></table></td>
 					</tr>
 				<tr>
@@ -1419,7 +1419,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 			<td>
 	<div style="padding-right:10px;">
 	<span>
-	<img src = "new-hp/images/smallcaps/plain/w.gif" width = "40" height = "38" align = "left">elcome&#130; <b><i><?php echo $rowb['displayname']; ?></i></b>. <?php
+	<img src = "new-hp/images/smallcaps/plain/w.gif" width = "40" height = "38" align = "left"><?php echo $_LANG['ACCOUNT']['ELCOME']; ?><b><i><?php echo $rowb['displayname']; ?></i></b>. <?php
 				$_LANG_msg = str_replace("GLOBALS_WEB_SET_SITE_NAME",$GLOBALS['WEB_SET']['SITE_NAME'],$_LANG['ACCOUNT']['CONTACT_EMAIL_INFO']);
 				$_LANG_msg = str_replace("SETTING_EMAIL_MAIN",$SETTING['EMAIL_MAIN'],$_LANG_msg);
 				echo $_LANG_msg."<a href = \"mailto:".$SETTING['EMAIL_MAIN']."\">".$SETTING['EMAIL_MAIN']."</a>."; ?>
@@ -1497,7 +1497,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 	  <?php 
 	  $getban= mysql_fetch_array(mysql_query("SELECT bandate, unbandate, banreason FROM account_banned WHERE id='".$row['id']."' AND active=1"));
 	  if ($getban['unbandate']=='') { 
-			echo "Active"; 
+			echo $_LANG['ACCOUNT']['ACTIVE']; 
 	   } else { 
 			echo "<font color=red>".$_LANG['ACCOUNT']['BANNED2'];
 			if ($row['unbandate']>=0) {
@@ -1522,7 +1522,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 	</tr>
 
 	<tr>
-	  <td width = "100%"><table cellspacing = "0" cellpadding = "0" border = "0" width = "100%"><tr><td width = "1"><img src = "shared/wow-com/images/headers/minisubheader/minisubheader-end.gif" width = "1" height = "16"></td><td bgcolor = "#464B3F" width = "100%"><span class = "smallBold" style = "color:white;">&nbsp;Account Created In&#058;</span></td><td width = "1"><img src = "shared/wow-com/images/headers/minisubheader/minisubheader-end.gif" width = "1" height = "16"></td></tr></table><table cellspacing = "0" cellpadding = "5" border = "0" width = "100%"><tr><td><span><i><? echo $row['joindate']; ?></i></span></td></tr></table></td>
+	  <td width = "100%"><table cellspacing = "0" cellpadding = "0" border = "0" width = "100%"><tr><td width = "1"><img src = "shared/wow-com/images/headers/minisubheader/minisubheader-end.gif" width = "1" height = "16"></td><td bgcolor = "#464B3F" width = "100%"><span class = "smallBold" style = "color:white;">&nbsp;<?php echo $_LANG['ACCOUNT']['ACC_C_IN']; ?>&#058;</span></td><td width = "1"><img src = "shared/wow-com/images/headers/minisubheader/minisubheader-end.gif" width = "1" height = "16"></td></tr></table><table cellspacing = "0" cellpadding = "5" border = "0" width = "100%"><tr><td><span><i><? echo $row['joindate']; ?></i></span></td></tr></table></td>
 	</tr>
 
 
@@ -1610,7 +1610,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 	<table cellspacing = "0" cellpadding = "0" border = "0" width = "100%">
 	<tr>
 	<td width = "24"><img src = "shared/wow-com/images/headers/subheader/subheader-left-sword.gif" width = "24" height = "20"></td>
-	<td width = "100%" bgcolor = "#05374A"><b class = "white">Contact Information&#058;</b></td>
+	<td width = "100%" bgcolor = "#05374A"><b class = "white"><?php echo $_LANG['ACCOUNT']['CON_INFO']; ?>&#058;</b></td>
 	<td width = "10"><img src = "shared/wow-com/images/headers/subheader/subheader-right.gif" width = "10" height = "20"></td>
 	</tr>
 	</table>
@@ -1653,7 +1653,7 @@ for($i=-12;$i<count($GMT)-12;$i++) {
 	  <td><span>
 	  <?php echo $rowb['displayname']; ?><br>
 	  <?php if ($rowb['bday']!="00/00/0000") { echo $rowb['bday'] .', '.$rowb['bdage'].' years' ; if($rowb['showbday']=='0') { echo ' (Hidden)'; } echo '<br>'; }?>
-	  Time Zone: GMT <?php echo $GMT[$rowb['gmt']][0]; ?><BR>	  
+	  <?php echo $_LANG['ACCOUNT']['FORUM_GMT']; ?><?php echo $GMT[$rowb['gmt']][0]; ?><BR>	  
 	  <?php echo $rowb['webpage']; ?>
 	  </span></td></tr></table></td>
 	</tr>
