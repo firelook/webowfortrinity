@@ -50,13 +50,13 @@ $open_vote_site = 0;
 
 // Max number of points that every account can get per day
 // Default: -1 - number of vote sites
-$max_acc_points_per_day = -1;
+$max_acc_points_per_day = $SETTING['VPOINTS_PD'];
 
 // IP voting period (in seconds)
 $ip_voting_period = 60*60*12;
 
 // Voting sites online check
-$use_online_check = True;
+$use_online_check = $SETTING['VON_CHECK'];
 
 // If you are using MaNGOS revision below 8886 change this to 1
 $mangos_rev = 1;

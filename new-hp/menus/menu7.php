@@ -24,7 +24,7 @@ require ('../../inc/conf/conf.functions.php');
 		var underLine="";
 		var bulletImg="";
 	}
-	var NoOffFirstLineMenus=5;			// Number of main menu  items
+	var NoOffFirstLineMenus=6;			// Number of main menu  items
 						// Colorvariables:
 						// Color variables take HTML predefined color names or "#rrggbb" strings
 						//For transparency make colors and border color ""
@@ -164,6 +164,7 @@ Menu2=new Array(bulletImg+"Users On-Line (<?php echo mysql_num_rows($query);?>)"
 Menu3=new Array(bulletImg+"Contests"+underLine,"?n=community.contests",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 Menu4=new Array(bulletImg+"Fan Art"+underLine,"?n=community.fanart",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 Menu5=new Array(bulletImg+"Teamspeak"+underLine,"?n=community.teamspeak",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
+Menu6=new Array(bulletImg+"Vote"+underLine,"?n=community.vote",menuBg,0,15,140,"transparent","","","","transparent","",-1,-1,-1,"","");
 	</script>
 	<script type='text/javascript' src='../js/menu132_com.js'></script>
 <noscript>Your browser does not support script</noscript>

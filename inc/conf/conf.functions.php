@@ -806,6 +806,9 @@ function onlinelocation($url, $sep='>', $incurl=false) {
 		case "community.teamspeak":
 			$url='Community '.$sep.' Teamspeak';
 		break;
+		case "community.vote":
+			$url='Community '.$sep.' Vote';
+		break;
 		case "support":
 			$url='Support';
 		break;

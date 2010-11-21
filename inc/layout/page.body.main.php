@@ -348,7 +348,8 @@ Menu1=new Array("<?php echo $GLOBALS['SETTING']['WEB_SITE_NAME']; ?>","?","share
 		Menu1_<?php echo $menui; ?>_3=new Array(bulletImg+"Contests"+underLine,"?n=community.contests",menuBg,0,15,140,"","","","","","",-1,-1,-1,"","");
 		Menu1_<?php echo $menui; ?>_4=new Array(bulletImg+"Fan Art"+underLine,"?n=community.fanart",menuBg,0,15,140,"","","","","","",-1,-1,-1,"","");
 		Menu1_<?php echo $menui; ?>_5=new Array(bulletImg+"Teamspeak"+underLine,"?n=community.teamspeak",menuBg,0,15,140,"","","","","","",-1,-1,-1,"","");
-
+		Menu1_<?php echo $menui; ?>_6=new Array(bulletImg+"Vote"+underLine,"?n=community.vote",menuBg,0,15,140,"","","","","","",-1,-1,-1,"","");
+		
 	Menu1_<?php echo ($menui+1); ?>=new Array(bulletImg+"Support"+underLine,"?",menuBg,<?php if ($lvlu>0) { echo '5'; } else { echo '4'; } ?>,15,110,"","","","","","",-1,-1,-1,"","");
 	<?php if ($lvlu>0) {
 		$nextmen=2;?>
